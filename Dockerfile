@@ -1,5 +1,5 @@
 # Step 1: Use the official lightweight Python image as the base image
-FROM python:3.9-slim
+FROM python:3.10-slim
 
 # Step 2: Set environment variables to prevent Python from writing .pyc files and enable output buffering
 ENV PYTHONDONTWRITEBYTECODE 1
@@ -11,10 +11,13 @@ WORKDIR /app
 # Step 4: Copy all project files from the current directory to the container's working directory
 COPY . .
 
+# Install system dependencies (including Git)
+RUN apt-get update && apt-get install -y git && apt-get clean
+
 # Step 5: Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Step 6: Download the SpaCy model (ensure it's available inside the container)
+#    Step 6: Download the SpaCy model (ensure it's available inside the container)
 RUN python -m spacy download en_core_web_sm
 
 # Step 7: Expose the port Gradio will run on (default is 7860)

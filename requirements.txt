@@ -10,7 +10,7 @@ sentence-transformers
 faiss-cpu
 nltk
 spacy
-mauve
+git+https://github.com/krishnap25/mauve.git
 torch
 gtts
 SpeechRecognition

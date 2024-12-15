@@ -25,7 +25,7 @@ While salary negotiations serve as the pilot, this project lays the groundwork f
 
 ```
 #### How to create an API KEY for OpenAI for the code
-OpenAI Getting Started [Docs]([url](https://platform.openai.com/docs/quickstart))
+OpenAI Getting Started [Docs](https://platform.openai.com/docs/quickstart)
 #### API KEY for OpenAI
 ```
 openai.api_key = "USE_YOUR_OWN_API_KEY"

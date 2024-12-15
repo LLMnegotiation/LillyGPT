@@ -11,6 +11,14 @@ By automating much of the negotiation process while preserving empathy and perso
 
 While salary negotiations serve as the pilot, this project lays the groundwork for AI-driven negotiation solutions across industries. Its methodologies—fine-tuning, prompt engineering, RAG for unified knowledge, and advanced metrics for continuous improvement—can extend to contexts such as vendor contract negotiations, customer pricing agreements, and dispute resolution. The integration of speech processing and emotional intelligence ensures the system adapts to unstructured inputs and fosters trust and collaboration, setting a new standard for negotiation tools in diverse applications.
 ### Get started
+#### What is [OpenAI Whisper](https://openai.com/index/whisper/)
+Getting Started Docs for [Speech to Text](https://platform.openai.com/docs/guides/speech-to-text)
+OpenAI Whisper is an advanced speech-to-text model designed to convert spoken language into written text with high accuracy. It is capable of recognizing and transcribing multiple languages, handling diverse accents, and processing noisy audio environments. Whisper is built using a large-scale transformer architecture and trained on a vast dataset of multilingual and multitask supervised data. This enables it to perform not only transcription but also tasks like language detection and translation. Its robust design makes it suitable for applications such as voice assistants, transcription services, and real-time language processing.
+![](https://images.ctfassets.net/kftzwdyauwt9/d9c13138-366f-49d3-a1a563abddc1/8acfb590df46923b021026207ff1a438/asr-summary-of-model-architecture-desktop.svg?w=1920&q=90)
+
+#### What is [OpenAI GPT4o](https://platform.openai.com/docs/models#gpt-4o)
+GPT-4o (“o” for “omni”) is our most advanced GPT model. It is multimodal (accepting text or image inputs and outputting text), and it has the same high intelligence as GPT-4 Turbo but is much more efficient—it generates text 2x faster and is 50% cheaper. Additionally, GPT-4o has the best vision and performance across non-English languages of any of our models. GPT-4o is available in the OpenAI API to paying customers.Learn how to use GPT-4o in the [text generation guide](https://platform.openai.com/docs/guides/text-generation).
+
 #### Some Basic Python Libraries needed to run LilyGPT and Self Play
 ##### GCP Code to run on VertexAI Collab Enterprise for `GCP_LillyGPT.ipynb`
 ```
@@ -26,7 +34,9 @@ While salary negotiations serve as the pilot, this project lays the groundwork f
 ```
 #### How to create an API KEY for OpenAI for the code
 OpenAI Getting Started [Docs](https://platform.openai.com/docs/quickstart)
+
 #### API KEY for OpenAI
 ```
 openai.api_key = "USE_YOUR_OWN_API_KEY"
 ```
+

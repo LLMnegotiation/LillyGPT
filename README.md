@@ -41,6 +41,7 @@ Fine-tuning is a process that enhances pre-trained language models by training t
 ```
 ### How to create an API KEY for OpenAI for the code
 OpenAI Getting Started [Docs](https://platform.openai.com/docs/quickstart)
+OpenAI Python Library [Github](https://github.com/openai/openai-python)
 
 ### API KEY for OpenAI
 ```

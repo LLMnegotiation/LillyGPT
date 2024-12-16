@@ -13,6 +13,7 @@ While salary negotiations serve as the pilot, this project lays the groundwork f
 ### :microphone: What is [OpenAI Whisper](https://openai.com/index/whisper/)
 Getting Started Docs for [Speech to Text](https://platform.openai.com/docs/guides/speech-to-text)
 OpenAI Whisper is an advanced speech-to-text model designed to convert spoken language into written text with high accuracy. It is capable of recognizing and transcribing multiple languages, handling diverse accents, and processing noisy audio environments. Whisper is built using a large-scale transformer architecture and trained on a vast dataset of multilingual and multitask supervised data. This enables it to perform not only transcription but also tasks like language detection and translation. Its robust design makes it suitable for applications such as voice assistants, transcription services, and real-time language processing.
+
 [OpenAI Whisper Model Card and Github](https://github.com/openai/whisper/blob/main/model-card.md)
 ![](https://raw.githubusercontent.com/openai/whisper/main/approach.png)
 

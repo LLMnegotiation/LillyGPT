@@ -1,2 +1,0 @@
-Timestamp,Agreement Rate,Average Sentiment Score,Feedback Quality,Average Response Time,Corpus BLEU,ROUGE,METEOR,BERTScore,G-Eval,NLI,QAG,TTR,Pause Ratio,Average Turn Length,MAUVE,USL-H,Reward Score,Conversation History
-2024-12-06T16:22:47.759133,0,0,Low,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"[{""role"": ""system"", ""reward_score"": 0, ""timestamp"": ""2024-12-06T16:22:09.985616""}]"

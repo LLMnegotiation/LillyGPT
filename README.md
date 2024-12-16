@@ -24,7 +24,7 @@ Fine-tuning is a process that enhances pre-trained language models by training t
 ## Some Basic Python Libraries needed to run LilyGPT and Self Play
 
 > [!IMPORTANT]
-> OpenAI instalation needs to be in 0.28 to work and Numpy Version ==1.24.4
+> OpenAI instalation needs to be in openai==0.28 to work and Numpy Version ==1.24.4
 
 ### GCP Code to run on VertexAI Collab Enterprise for `GCP_LillyGPT.ipynb`
 ```

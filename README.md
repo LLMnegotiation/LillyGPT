@@ -17,6 +17,9 @@ OpenAI Whisper is an advanced speech-to-text model designed to convert spoken la
 [OpenAI Whisper Model Card and Github](https://github.com/openai/whisper/blob/main/model-card.md)
 ![](https://raw.githubusercontent.com/openai/whisper/main/approach.png)
 
+### :microphone: What is [Google TTS](https://github.com/google/voice-builder?tab=readme-ov-file)
+
+Google Text-to-Speech (TTS) is a powerful tool that converts written text into natural-sounding speech. It supports multiple languages, accents, and voice styles, allowing for customization to fit different needs. Powered by advanced technologies like WaveNet, Google TTS delivers high-quality, human-like audio output. This technology is widely used in accessibility tools, virtual assistants, and voice-driven applications. With easy integration through APIs, Google TTS enables developers to add text-to-speech functionality to apps, devices, and software for interactive and engaging user experiences.
 
 ### What is [OpenAI GPT4o](https://platform.openai.com/docs/models#gpt-4o)
 GPT-4o (“o” for “omni”) is our most advanced GPT model. It is multimodal (accepting text or image inputs and outputting text), and it has the same high intelligence as GPT-4 Turbo but is much more efficient—it generates text 2x faster and is 50% cheaper. Additionally, GPT-4o has the best vision and performance across non-English languages of any of our models. GPT-4o is available in the OpenAI API to paying customers.Learn how to use GPT-4o in the [text generation guide](https://platform.openai.com/docs/guides/text-generation).

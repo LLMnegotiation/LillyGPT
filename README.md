@@ -16,6 +16,8 @@ OpenAI Whisper is an advanced speech-to-text model designed to convert spoken la
 
 [OpenAI Whisper Model Card and Github](https://github.com/openai/whisper/blob/main/model-card.md)
 ![](https://raw.githubusercontent.com/openai/whisper/main/approach.png)
+### Product Architecture:
+<img width="1039" alt="Screenshot 2025-02-16 at 3 44 00 PM" src="https://github.com/user-attachments/assets/1d60ca32-ff82-4e42-a15d-38cc36d08592" />
 
 ### :microphone: What is [Google TTS](https://github.com/google/voice-builder?tab=readme-ov-file)
 
